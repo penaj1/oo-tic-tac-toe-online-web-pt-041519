@@ -62,6 +62,7 @@ class TicTacToe
   end
   
   def won?
+    if valid_
     return false
   end
   
