@@ -89,8 +89,8 @@ class TicTacToe
     won? || draw?
   end 
   
-  #def winner
-  #end 
-  
+  def winner
+    won? = token
+  end 
   
 end
