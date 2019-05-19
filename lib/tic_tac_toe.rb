@@ -89,9 +89,9 @@ class TicTacToe
     won? || draw?
   end 
   
-  def winner
-    if winning_combo = won?
-      winning_combo.first
+  def winner(board)
+    if winning_combo = won?(board)
+      board[winning_combo.first]
   end 
 end
   
