@@ -93,8 +93,10 @@ class TicTacToe
     if won?
       turn_count.odd?
       "O"
-    else
+    elsif
       "X"
+    else
+      nil
     end
   end 
   
