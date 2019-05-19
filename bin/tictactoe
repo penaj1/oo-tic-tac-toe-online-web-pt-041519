@@ -2,7 +2,5 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-puts Hi! Welcome to Command Line Tic Tac Toe! Would you like to play? (Y/n)
-puts Y 
-puts Great! Starting a new game...
-display_board
+game = TicTacToe.new
+game.play
