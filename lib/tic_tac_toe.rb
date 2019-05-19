@@ -63,7 +63,7 @@ class TicTacToe
   
   def won?
     if WIN_COMBINATIONS
-      return 
+      return WIN_COMBINATIONS.to_a
     else
       false
     end
