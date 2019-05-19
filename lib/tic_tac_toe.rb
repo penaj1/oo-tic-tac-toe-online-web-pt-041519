@@ -90,14 +90,8 @@ class TicTacToe
   end 
   
   def winner
-    if won?
-      turn_count.odd?
-      "O"
-    elsif
-      "X"
-    else
-      nil
-    end
+    if winning_combo = won?
+      board[winning_combo.first]
   end 
   
 end
