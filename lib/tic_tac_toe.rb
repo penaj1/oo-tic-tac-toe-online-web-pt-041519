@@ -97,5 +97,5 @@ class TicTacToe
 end
 
 def play
-  "Would you like to play?"
+  puts "Would you like to play?"
 end
