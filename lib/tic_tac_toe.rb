@@ -47,12 +47,12 @@ class TicTacToe
   end
   
   def turn
-    puts "Is your move between 1-9?"
-    input
-    input.to_i
-  end
-    display_board
-  end
+    #puts "Is your move between 1-9?"
+    #input
+    #input.to_i
+  #end
+    #display_board
+  #end
   
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
