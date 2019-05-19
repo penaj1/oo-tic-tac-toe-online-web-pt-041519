@@ -61,8 +61,9 @@ class TicTacToe
     @board.count{|token| token == "X" || token == "O"}
   end
   
-  #def won?
-  #end
+  def won?
+    return false
+  end
   
   #def full?
   #end
