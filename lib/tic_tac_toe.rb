@@ -94,9 +94,6 @@ class TicTacToe
     if winner = won?
       won = @board[winner.first]
     end
-    end
-
-def play
-end
+  end
 
 end
