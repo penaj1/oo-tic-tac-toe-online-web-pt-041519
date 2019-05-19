@@ -97,6 +97,5 @@ class TicTacToe
 end
 
 def play
-  ""
-  
+  "Would you like to play?"
 end
