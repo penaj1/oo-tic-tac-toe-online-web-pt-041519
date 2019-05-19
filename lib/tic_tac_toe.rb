@@ -92,9 +92,9 @@ class TicTacToe
   def winner
     if won?
       turn_count.odd?
-      "X"
+      "O"
     else
-      "0"
+      "X"
     end
   end 
   
