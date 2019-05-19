@@ -48,7 +48,7 @@ class TicTacToe
   
   def turn
     input = gets.chomp    
-    #puts "Is your move between 1-9?"
+    puts "Is your move between 1-9?"
     #input
     #input.to_i
   #end
