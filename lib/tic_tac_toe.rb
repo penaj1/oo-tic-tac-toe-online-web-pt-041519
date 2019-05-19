@@ -46,13 +46,14 @@ class TicTacToe
     turn_count % 2 == 0 ? "X" : "O"
   end
   
-  #def turn
+  def turn
+    input.gets.strip
     #puts "Is your move between 1-9?"
     #input
     #input.to_i
   #end
     #display_board
-  #end
+  end
   
   def turn_count
     @board.count{|token| token == "X" || token == "O"}
