@@ -50,8 +50,7 @@ class TicTacToe
     input = gets.chomp
     input.to_i
     #puts "Is your move between 1-9?"
-    #input
-    #input.to_i
+    input
   #end
     #display_board
   end
