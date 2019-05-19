@@ -1,3 +1,5 @@
 #!/usr/bin/env ruby
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
+
+puts Hi! Welcome to Command Line Tic Tac Toe! Would you like to play? (Y/n)
