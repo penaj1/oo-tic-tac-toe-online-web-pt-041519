@@ -101,7 +101,7 @@ class TicTacToe
       turn 
     end
     if won?
-      puts "congratulations the winner is #{winner}"
+      puts "Congratulations #{winner}!"
       elsif draw?
       puts "Cat's Game!"
     end
