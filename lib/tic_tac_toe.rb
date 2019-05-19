@@ -98,5 +98,8 @@ class TicTacToe
 end
 
 def play
-  puts "Would you like to play?"
+  until over?
+  turn
+end
+
 end
