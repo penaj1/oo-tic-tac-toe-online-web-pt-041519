@@ -49,10 +49,12 @@ class TicTacToe
   def turn
     input = gets.chomp
     input = input_to_index(input)
-    valid_move?
-    current_player
-  #end
-    #display_board
+    if valid_move?(index)
+      move(index, current_player)
+    else
+      turn
+    end
+    display_board
   end
   
   def turn_count
