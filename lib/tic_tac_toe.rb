@@ -46,7 +46,7 @@ class TicTacToe
     turn_count % 2 == 0 ? "X" : "O"
   end
   
-  def turn(input)
+  def turn
     input = gets.chomp    
     #puts "Is your move between 1-9?"
     #input
