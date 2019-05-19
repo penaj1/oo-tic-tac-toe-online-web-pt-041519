@@ -62,8 +62,11 @@ class TicTacToe
   end
   
   def won?
-    if valid_
-    return false
+    if WIN_COMBINATIONS
+      return 
+    else
+      false
+    end
   end
   
   #def full?
