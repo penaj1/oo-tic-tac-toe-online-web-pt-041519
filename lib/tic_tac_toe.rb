@@ -50,7 +50,7 @@ class TicTacToe
     puts "Is your move between 1-9?"
     input
     input.to_i
-    end
+  end
     display_board
   end
   
@@ -58,22 +58,20 @@ class TicTacToe
     @board.count{|token| token == "X" || token == "O"}
   end
   
-  def won?
-    
-  end
+  #def won?
+  #end
   
-  def full?
-  end
+  #def full?
+  #end
   
-  def draw?
-  end 
+  #def draw?
+  #end 
   
-  def over?
-  end 
+  #def over?
+  #end 
   
-  def winner
-    
-  end 
+  #def winner
+  #end 
   
   
 end
